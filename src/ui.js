@@ -1,9 +1,8 @@
 'use strict'
-const path = require('path')
-const { h, Text } = require('ink')
+const React = require('react')
+const { Text } = require('ink')
 const SelectInput = require('ink-select-input')
 const opn = require('opn')
-const terminalImage = require('terminal-image')
 
 const open = url => opn(url, { wait: false })
 

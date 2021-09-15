@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 'use strict'
+const React = require('react')
 const path = require('path')
 const meow = require('meow')
 const termImg = require('term-img')
 const terminalImage = require('terminal-image')
 const importJsx = require('import-jsx')
-const { h, render } = require('ink')
+const { render } = require('ink')
 
-const ui = importJsx('./ui')
+const Ui = require('./ui')
 
 meow(`
 	Usage
@@ -21,4 +22,4 @@ const fallback = async () => {
 
 termImg(path.join(__dirname, 'avatar.png'), { fallback })
 
-render(h(ui))
+render(<Ui />)
