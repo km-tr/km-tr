@@ -23,10 +23,6 @@ const items = [
     url: 'https://github.com/km-tr',
   },
   {
-    label: 'Blog',
-    url: 'https://www.kumagai.tokyo',
-  },
-  {
     label: 'Facebook',
     url: 'https://www.facebook.com/beer.with.sushi',
   },
@@ -40,13 +36,17 @@ const items = [
       process.exit()
     },
   },
+  {
+    label: '???',
+    url: 'https://ququlo.com',
+  },
 ]
 
 module.exports = () => (
   <div>
     <br />
     <div>
-      <Text>I’m a Web developer in Roppongi.</Text>
+      <Text>I’m a Web and React Native developer.</Text>
     </div>
     <br />
     <SelectInput items={items} onSelect={handleSelect} />
