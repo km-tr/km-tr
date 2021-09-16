@@ -14,10 +14,6 @@ $ km-tr --help
   Usage
     $ km-tr
 
-  Options
-    --name  Your name
-
   Examples
-    $ km-tr --name=Jane
-    Hello, Jane
+    $ km-tr
 ```
