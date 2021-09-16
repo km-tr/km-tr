@@ -13,7 +13,4 @@ $ km-tr --help
 
   Usage
     $ km-tr
-
-  Examples
-    $ km-tr
 ```
