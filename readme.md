@@ -2,15 +2,4 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=km-tr&layout=compact&theme=graywhite)
 
-## CLI
-
-```bash
-$ npx km-tr
-```
-
-```
-$ km-tr --help
-
-  Usage
-    $ km-tr
-```
+[My Github involves](https://github.com/search?q=involves%3Akm-tr+is%3Apublic++&type=pullrequests)
